@@ -161,8 +161,10 @@
 }
 
 body {
-   background-color: #fff;
-   color: #1a1a1a;
+   /* background-color: #fff; */
+   /* color: #1a1a1a; */
+   background-color: #0A1128;
+   color: white;
    font-size: 16px
 }
 
@@ -369,7 +371,7 @@ img {
 }
 
 .r1 {
-   top: 55%;
+   top: 70%;
    left: 50%;
    width: 25px;
    height: 25px
@@ -411,8 +413,8 @@ img {
 }
 
 .bg-white {
-   background-color: rgba(255, 255, 255, 0.9);
-   box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.9)
+   background-color: rgba(10, 17, 40, 0.9);
+   box-shadow: 0 0 20px 10px rgba(10, 17, 40, 0.9);
 }
 
 .social-icons {
