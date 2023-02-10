@@ -95,10 +95,20 @@
    border-radius: 50%
 }
 
+.sponsor-heading{
+   font-size: 3rem;
+}
+
 .sponsors a:hover,
 .sponsors a:active {
-   border-bottom: none
+   border-bottom: none;
 }
+
+/* .sponsors a img{
+   background-color: white;
+   padding: 20px;
+   border-radius: 15px;
+} */
 
 .logo-sponsor {
    width: auto;
@@ -255,8 +265,9 @@ img {
 }
 
 .l5 span {
-   background-color: #1a1a1a;
-   padding: 1px 18em 0
+   background-color: #f8f8f8;
+   color: #000000;
+   /* padding: 1px 18em 0; */
 }
 
 @media (max-width: 767px) {
@@ -499,6 +510,10 @@ nav {
 
 .nav-logo{
    filter: brightness(0) invert(1);
+}
+
+a.navbar-brand{
+border-bottom: 0;
 }
 
 .navbar-nav{
