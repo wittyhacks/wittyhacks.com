@@ -96,12 +96,52 @@
 }
 
 .sponsor-heading{
-   font-size: 3rem;
+   margin-top: 4rem;
+   font-size: 5rem;
 }
 
 .sponsors a:hover,
 .sponsors a:active {
    border-bottom: none;
+}
+
+.sponsors{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 0 0 3rem;
+}
+
+.sponsors a{
+   margin: 20px;
+   background-color: #111010;
+   border-radius: 10px;
+   padding: 20px;
+   transition: .3s ease;
+}
+
+.logo-sponsor{
+height: 50px;
+}
+
+.gold a:hover{
+   box-shadow: 0 0 10px 2px goldenrod;
+}
+.silver a:hover{
+   box-shadow: 0 0 10px 2px silver;
+}
+.bronze a:hover{
+   box-shadow: 0 0 10px 2px chocolate;
+}
+
+.g{
+   color: goldenrod;
+}
+.s{
+   color: silver;
+}
+.bro{
+ color: chocolate;
 }
 
 /* .sponsors a img{
@@ -110,50 +150,52 @@
    border-radius: 15px;
 } */
 
-.logo-sponsor {
+/* .logo-sponsor {
    width: auto;
    max-height: 220px;
    margin: 20px
-}
+} */
 
-.logo-sponsor-xl {
+/* .logo-sponsor-xl {
    width: 360px;
-   /* max-height: 100px; */
    margin: 20px
-}
+} */
 
-.logo-sponsor-lg {
+/* .logo-sponsor-lg {
    width: 280px;
-   /* max-height: 100px; */
    margin: 20px
-}
+} */
 
-.logo-sponsor-md {
+/* .logo-sponsor-md {
    width: 240px;
    max-height: 300px;
    margin: 20px
-}
+} */
 
-.logo-sponsor-sm {
+/* .logo-sponsor-sm {
    width: 180px;
    max-height: 200px;
    margin: 20px
-}
+} */
 
-.logo-sponsor-xs {
+/* .logo-sponsor-xs {
    width: 120px;
    max-height: 160px;
    margin: 20px
-}
+} */
 
 @media (max-width: 424px) {
-   .sponsors>.vertical-align {
+   /* .sponsors>.vertical-align {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       flex-direction: column
+   } */
+
+   .sponsor-heading{
+      font-size: 3rem;
    }
 
-   .logo-sponsor-lg {
+   /* .logo-sponsor-lg {
       max-width: 250px
    }
 
@@ -167,7 +209,7 @@
 
    .logo-sponsor-xs {
       max-width: 150px
-   }
+   } */
 }
 
 body {
