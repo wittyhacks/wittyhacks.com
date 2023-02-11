@@ -37,6 +37,57 @@
    align-items: center
 }
 
+.themes-row{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.themes-card{
+   width: 280px;
+   height: 250px;
+   background-color: rgba(17, 16, 16, 0.818);
+   font-size: 1rem;
+   line-height: 1;
+   padding: 20px;
+   border-top: 8px solid;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   margin: 20px;
+   transition: .3s ease;
+}
+
+.tc1{
+   border-color: #f3a700;
+}
+.tc2{
+   border-color: #E4405F;
+}
+.tc3{
+   border-color: #277171;
+}
+.tc4{
+   border-color: #0077B5;
+}
+
+.themes-card:hover{
+   transform: scale(1.05);
+
+}
+
+.tc1:hover{
+   background-color: #f3a700;
+}
+.tc2:hover{
+   background-color: #E4405F;
+}
+.tc3:hover{
+   background-color: #277171;
+}
+.tc4:hover{
+   background-color: #0077B5;
+}
+
 .schedule {
    margin-top: 25px
 }
