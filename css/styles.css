@@ -314,6 +314,33 @@ text-align: center;
    border-bottom: none; 
 }
 
+.join-row{
+   text-align: center;
+}
+
+.join-row p{
+   margin: 30px 0;
+}
+
+.btn-join{
+   background-image: linear-gradient(to right, #FF4F63 0%, #911BED  51%, #FF4F63 100%);
+   transition: 0.5s;
+   background-size: 200% auto;     
+   border-radius: 10px;
+   margin: 10px;
+   padding: 15px 45px;
+   border: none;
+   color: white;
+}
+
+ .btn-join:hover {
+   background-position: right center; /* change the direction of the change here */
+   text-decoration: none;
+   border: none;
+   color: white;
+ }
+
+
 body {
    /* background-color: #fff; */
    /* color: #1a1a1a; */
