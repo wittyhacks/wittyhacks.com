@@ -92,6 +92,12 @@
 .tc4{
    border-color: #0077B5;
 }
+.tc5{
+   border-color: rgb(166, 67, 247);
+}
+.tc6{
+   border-color: rgb(22, 175, 94);
+}
 
 .themes-card:hover{
    transform: scale(1.05);
@@ -109,6 +115,12 @@
 }
 .tc4:hover{
    background-color: #0077B5;
+}
+.tc5:hover{
+   background-color: rgb(166, 67, 247);
+}
+.tc6:hover{
+   background-color: rgb(22, 175, 94);
 }
 
 .schedule {
@@ -220,6 +232,10 @@ height: 50px;
 }
 .bro{
  color: chocolate;
+}
+
+.img-link:hover{
+   border: none !important;
 }
 
 /* .sponsors a img{
