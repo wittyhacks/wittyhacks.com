@@ -379,6 +379,23 @@ height: 50px;
    margin: 20px
 } */
 
+.map{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+
+ .map iframe{
+   border: none;
+   width: 650px;
+   height: 420px;
+ }
+
+ .map a{
+   font-size: 2rem;
+ }
+
 @media (max-width: 424px) {
    /* .sponsors>.vertical-align {
       -webkit-box-orient: vertical;
@@ -417,6 +434,11 @@ height: 50px;
    .logo-sponsor-xs {
       max-width: 150px
    } */
+
+   .map iframe{
+      width: 300px;
+      height: 300px;
+   }
 }
 
 .team-row{
@@ -492,7 +514,6 @@ text-align: center;
    color: white;
  }
 
-
 body {
    /* background-color: #fff; */
    /* color: #1a1a1a; */
@@ -532,7 +553,7 @@ img {
    font-weight: 500;
    color: #1071F2;
    margin: 100px auto 10px;
-   line-height: 100px
+   line-height: 100px;
 }
 
 @media (max-width: 767px) {
