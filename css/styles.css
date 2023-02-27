@@ -127,6 +127,31 @@
    background-color: rgb(22, 175, 94);
 }
 
+.btn-join:visited
+, .btn-join:active{
+   color: white;
+   text-decoration: none;
+   border-bottom: none;
+}
+
+.btn-join{
+   background-image: linear-gradient(to right, #FF4F63 0%, #911BED  51%, #FF4F63 100%);
+   transition: 0.5s;
+   background-size: 200% auto;     
+   border-radius: 10px;
+   margin: 10px;
+   padding: 15px 45px;
+   border: none;
+   color: white;
+}
+
+ .btn-join:hover {
+   background-position: right center; /* change the direction of the change here */
+   text-decoration: none;
+   border: none;
+   color: white;
+ }
+
 .prize-row{
    display: flex;
    margin-top: 3rem;
@@ -404,7 +429,7 @@ height: 50px;
    overflow: hidden;
    height:150px;
  }
- 
+
  @keyframes client-animatin {
    0% {
      transform: translateX(0);
@@ -527,30 +552,7 @@ text-align: center;
    margin: 30px 0;
 }
 
-.btn-join:visited
-, .btn-join:active{
-   color: white;
-   text-decoration: none;
-   border-bottom: none;
-}
 
-.btn-join{
-   background-image: linear-gradient(to right, #FF4F63 0%, #911BED  51%, #FF4F63 100%);
-   transition: 0.5s;
-   background-size: 200% auto;     
-   border-radius: 10px;
-   margin: 10px;
-   padding: 15px 45px;
-   border: none;
-   color: white;
-}
-
- .btn-join:hover {
-   background-position: right center; /* change the direction of the change here */
-   text-decoration: none;
-   border: none;
-   color: white;
- }
 
 body {
    /* background-color: #fff; */
