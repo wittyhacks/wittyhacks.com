@@ -396,6 +396,37 @@ height: 50px;
    font-size: 2rem;
  }
 
+ #community{
+   text-align: center;
+ }
+
+ .client-row {
+   overflow: hidden;
+   height:150px;
+ }
+ 
+ @keyframes client-animatin {
+   0% {
+     transform: translateX(0);
+   }
+   100% {
+     transform: translateX(calc(-250px * 5));
+   }
+ }
+ 
+ .client-track {
+   animation: client-animatin 20s linear infinite;
+   width: calc(250px * 9);
+ }
+ 
+ .client-logo {
+   height: 150px;
+   width: auto;
+   margin: 0 30px;
+ }
+
+
+
 @media (max-width: 424px) {
    /* .sponsors>.vertical-align {
       -webkit-box-orient: vertical;
