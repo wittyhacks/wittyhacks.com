@@ -2,6 +2,10 @@
    text-transform: uppercase
 }
 
+.row {
+   margin: 0;
+}
+
 .text-center {
    text-align: center
 }
@@ -903,6 +907,12 @@ border-bottom: 0;
   padding-top: 10px;
 }
 
+.main-logo {
+   display: block;
+   width: 60%;
+   margin: 15% auto 5%;
+}
+
 @media (max-width: 767px) {
    nav {
       padding-top: 0;
@@ -918,6 +928,14 @@ border-bottom: 0;
    .iframe{
       width: 280px;
       height: 158px;
+   }
+   .main-logo {
+      display: block;
+      width: 100%;
+      margin: 15% auto 5%;
+   }
+   #mlh-trust-badge {
+      right: 70px !important;
    }
 }
 
@@ -1012,12 +1030,6 @@ border-bottom: 0;
    transition: all .3s ease-in-out;
    box-shadow: 1px 1px 2px 0 #ccc;
    border-bottom: 0
-}
-
-.main-logo {
-   display: block;
-   width: 100%;
-   margin: 15% auto 5%;
 }
 
 .paper-b {
@@ -1280,10 +1292,24 @@ border-bottom: 0;
    top: -10px;
    margin-left: -35px
 }
+.register-header-div {
+   padding-top: 50px;
+}
+.register-header {
+   border: 2px solid #fff;
+   border-radius: 5px;
+   margin: 20px;
+}
+.google-register-form-fram {
+   width: 300px;
+}
 
 @media (max-width: 767px) {
    .talk-wrap {
       margin-left: -5px
+   }
+   .register-header-div {
+      padding-top: 100px;
    }
 }
 
