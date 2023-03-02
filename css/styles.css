@@ -45,6 +45,11 @@
    align-items: center
 }
 
+.typewriter{
+   margin: auto;
+   width: 500px;
+}
+
 .typewriter h1 {
    overflow: hidden; /* Ensures the content is not revealed until the animation */
    border-right: .15em solid orange; /* The typwriter cursor */
@@ -476,6 +481,10 @@ height: 50px;
 
    .sponsor-heading{
       font-size: 3rem;
+   }
+
+   .typewriter{
+      width: 280px;
    }
 
    .typewriter h1{
