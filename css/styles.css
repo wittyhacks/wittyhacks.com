@@ -448,9 +448,13 @@ height: 50px;
    text-align: center;
  }
 
+.cp{
+   margin-bottom: 4rem;
+}
+
  .client-row {
    overflow: hidden;
-   height:150px;
+   height:120px;
  }
 
  @keyframes client-animatin {
@@ -458,17 +462,17 @@ height: 50px;
      transform: translateX(0);
    }
    100% {
-     transform: translateX(calc(-250px * 5));
+     transform: translateX(calc(-250px * 15));
    }
  }
  
  .client-track {
-   animation: client-animatin 20s linear infinite;
-   width: calc(250px * 9);
+   animation: client-animatin 30s linear infinite;
+   width: calc(250px * 16);
  }
  
  .client-logo {
-   height: 150px;
+   height: 100px;
    width: auto;
    margin: 0 20px;
  }
@@ -578,6 +582,15 @@ border-radius: 15px;
       width: 280px;
    }
 
+   .client-row{
+      height: 90px;
+   }
+
+   .client-logo{
+      height: 70px;
+   }
+
+   
 }
 
 .team-row{
