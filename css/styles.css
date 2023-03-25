@@ -525,6 +525,25 @@ padding: 20px;
 border-radius: 15px;
 }
 
+.prize-t-card{
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   background-color: #130829;
+   background-image: url(../assets/img/prize-track-bg.png);
+   background-position: right bottom;
+   background-size: 50%;
+   background-repeat: no-repeat;
+   font-size: 1rem;
+}
+
+.pri
+
+.prize-t-logo img{
+   height: 60px;
+   width: auto;
+}
+
 @media (max-width: 424px) {
    /* .sponsors>.vertical-align {
       -webkit-box-orient: vertical;
