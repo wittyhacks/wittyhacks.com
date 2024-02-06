@@ -82,6 +82,15 @@
    flex-wrap: wrap;
 }
 
+.home{
+   position: relative;
+}
+.home-bg{
+   /* width: 200%; */
+   position: absolute;
+   opacity: 0.1;
+}
+
 .themes-card{
    width: 290px;
    height: 270px;
