@@ -88,6 +88,7 @@
 .home-bg{
    /* width: 200%; */
    position: absolute;
+   z-index: -1;
    opacity: 0.1;
 }
 
@@ -104,6 +105,8 @@
    margin: 20px;
    transition: .3s ease;
 }
+
+
 
 .tc1{
    border-color: #f3a700;
