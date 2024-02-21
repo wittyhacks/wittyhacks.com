@@ -715,7 +715,8 @@ text-align: center;
 }
 
 .join-row p{
-   margin: 30px 0;
+   margin: 30px auto;
+   max-width: 800px;
 }
 
 
