@@ -251,30 +251,33 @@
 }
 
 .prize-card:nth-child(2) .face2{
-   background-image: linear-gradient(
+   background:linear-gradient(135deg, #18e8fb 0%,#9c27e6 100%);
+   /* background-image: linear-gradient(
       40deg,
       #2e38bf 0%,
       #ff4f63 45%,
       #911bed 100%
-    );
+    ); */
     border-radius: 15px;
 }
 .prize-card:nth-child(1) .face2{
-   background-image: linear-gradient(
+   background:linear-gradient(135deg, #C56CD6 0%,#3425AF 100%);
+      /* background-image: linear-gradient(
       40deg,
       #911bed 0%,
       #2e38bf 45%,
       #ff4f63 100%
-    );
+    ); */
     border-radius: 15px;
 }
 .prize-card:nth-child(3) .face2{
-   background-image: linear-gradient(
+   background:linear-gradient(135deg, #0FF0B3 0%,#036ED9 100%);
+   /* background-image: linear-gradient(
       40deg,
       #ff4f63 0%,
       #911bed  45%,
       #2e38bf 100%
-    );
+    ); */
     border-radius: 15px;
 }
 
