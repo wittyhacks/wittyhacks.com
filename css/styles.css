@@ -84,6 +84,7 @@
 
 .home{
    position: relative;
+   overflow: hidden;
 }
 .home-bg{
    min-width: 1000px;
@@ -95,7 +96,7 @@
 
 .themes-card{
    width: 290px;
-   height: 270px;
+   min-height: 270px;
    background-color: rgba(17, 16, 16, 0.818);
    font-size: 1rem;
    line-height: 1;
@@ -557,6 +558,14 @@ height:50px;
 
 #media{
    text-align: center;
+}
+
+.judge{
+   text-align: center;
+}
+.judge img{
+   width: 80%;
+   margin-top: 30px;
 }
 
 .media-logo{
