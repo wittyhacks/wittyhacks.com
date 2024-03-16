@@ -512,17 +512,17 @@ height:50px;
      transform: translateX(0);
    }
    100% {
-     transform: translateX(calc(-250px * 15));
+     transform: translateX(calc(-250px * 20));
    }
  }
  
  .client-track {
    animation: client-animatin 30s linear infinite;
-   width: calc(250px * 16);
+   width: calc(250px * 21);
  }
  
  .client-logo {
-   height: 100px;
+   height: 80px;
    width: auto;
    margin: 0 20px;
  }
