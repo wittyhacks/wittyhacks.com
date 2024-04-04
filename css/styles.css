@@ -513,13 +513,13 @@ height:50px;
      transform: translateX(0);
    }
    100% {
-     transform: translateX(calc(-250px * 20));
+     transform: translateX(calc(-250px * 6));
    }
  }
  
  .client-track {
-   animation: client-animatin 30s linear infinite;
-   width: calc(250px * 21);
+   animation: client-animatin 10s linear infinite;
+   width: calc(250px * 7);
  }
  
  .client-logo {
@@ -600,9 +600,9 @@ border-radius: 15px;
    background-position: right bottom;
    background-size: 50%;
    background-repeat: no-repeat;
-   font-size: 1rem;
+   font-size: 0.95rem;
    border-radius: 15px;
-   padding: 20px;
+   padding: 15px;
    position: relative;
    height: 280px;
    margin: 30px;
@@ -622,6 +622,9 @@ border-radius: 15px;
 
 .prize-t-logo img{
    width: 150px;
+   height: 40px;
+   object-fit: contain;
+   object-position: right;
 }
 
 .forms-row{
@@ -724,7 +727,7 @@ border-radius: 15px;
    }
 
    .media-logo{
-      width: 280px;
+      width: 250px;
    }
 
    .client-row{
